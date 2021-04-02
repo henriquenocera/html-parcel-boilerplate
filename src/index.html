@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
+    <link rel="stylesheet" href="scss/main.scss" />
+
+    <!-- Meta Tags -->
+    <meta name="author" content="Henrique Nocera | Axios Corp" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://seudominio.com.br" />
+
+    <!-- Meta Tags ( page ) -->
+    <meta name="title" property="og:title" content="Page Title" />
+    <meta
+      name="description"
+      property="og:description"
+      content="Page Description"
+    />
+    <meta name="keywords" content="Keyword 1, Keyword 2, Keyword 3" />
+    <!-- <link rel=“canonical” href=”https://www.axioscorp.com.br”/> -->
+
+    <!-- Meta Image (Facebook) | Default size (1200x1200)-->
+    <meta
+      property="og:image"
+      content="https://www.axioscorp.com.br/images/facebook-meta-img.jpg"
+    />
+    <meta property="og:image:type" content="image/jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="1200" />
+
+    <!-- Meta Image (Whatsapp) | Default size (400x400)-->
+    <meta
+      property="og:image"
+      content="https://www.axioscorp.com.br/images/whats-meta.jpg"
+    />
+    <meta property="og:image:type" content="image/jpg" />
+    <meta property="og:image:width" content="400" />
+    <meta property="og:image:height" content="400" />
+    <title>Page Title</title>
+  </head>
+  <body id="index">
+    <!-- Headaer Include -->
+    <include src="components/header.html"></include>
+
+    <main></main>
+
+    <!-- Footer Include -->
+    <include src="components/footer.html"></include>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <script>
+      window.ga = function () {
+        ga.q.push(arguments);
+      };
+      ga.q = [];
+      ga.l = +new Date();
+      ga("create", "UA-XXXXX-Y", "auto");
+      ga("set", "anonymizeIp", true);
+      ga("set", "transport", "beacon");
+      ga("send", "pageview");
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async></script>
+  </body>
+</html>
