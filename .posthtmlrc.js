@@ -1,7 +1,7 @@
 module.exports = {
   plugins: [
     require("posthtml-include")({
-      root: __dirname + "/src",
+      root: __dirname + "/src/pages",
     }),
   ],
 };
