@@ -1,14 +1,14 @@
 {
     "liveServer.settings.port": 5501,
     "files.exclude": {
-        "node_modules": true,
-        ".gitattributes": true,
-        ".gitignore": true,
-        "package.json": true,
-        "package-lock.json": true,
-        "yarn.lock": true,
-        "yarn-error.log": true,
-        ".posthtmlrc.js": true,
-        ".cache": true,
+        "node_modules": false,
+        ".gitattributes": false,
+        ".gitignore": false,
+        "package.json": false,
+        "package-lock.json": false,
+        "yarn.lock": false,
+        "yarn-error.log": false,
+        ".posthtmlrc.js": false,
+        ".cache": false,
     }
 }
